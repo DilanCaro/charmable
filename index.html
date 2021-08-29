@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8" lang="en">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Charmable - Beauty Care Products</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+
+        <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+
+    </head>
+
+    <body>
+
+        <!-- Charmable Logo (SVG format) -->
+        <img src="images/logo.svg" id="logo" alt="Charmable Logo">
+
+        <!-- Navigation Bar under Logo -->
+        <div id="nav">
+
+            <nav class="navElement" id="products">BEAUTY PRODUCTS</nav>
+
+            <nav class="navElement" id="ambassador">BECOME AN AMBASSADOR</nav>
+
+            <nav class="navElement" id="contactUs">CONTACT US</nav>
+
+            <nav class="heroIconsDiv">
+
+                <!-- Search Icon -->
+                <div class="navElement heroIcons" id="search">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                
+                </div>
+                
+                <!-- Shopping Bag Icon -->
+                <div class="navElement heroIcons" id="cart">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+
+                </div>
+            </nav>
+
+        </div>
+
+        <!-- Slideshow Pics -->
+        <div id="slideshowContainer">
+
+            <div class="slideshowElement active" id="slideshow1">
+
+                <img src="https://images.unsplash.com/photo-1630149244807-d1de727f89e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Image 1">
+
+            </div>
+
+            <div class="slideshowElement" id="slideshow2">
+
+                <img src="https://images.unsplash.com/photo-1630058756535-f19afd893b13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Image 2">
+
+
+            </div>
+
+            <div class="slideshowElement" id="slideshow3">
+
+                <img src="https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="Image 1">
+
+            </div>
+
+            <!-- Previous and Next Picture Arrows -->
+            <a id="previousPicture">&#10094;</a>
+
+            <a id="nextPicture">&#10095;</a>
+
+            <br>
+
+            <!-- Dots -->
+            <div style="text-align: center;">
+            
+                <span class="dot" id="dot1"></span>
+
+                <span class="dot" id="dot2"></span>
+
+                <span class="dot" id="dot3"></span>
+            
+            </div>
+
+        </div>
+        
+        <!-- Script -->
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+    
+</html>
